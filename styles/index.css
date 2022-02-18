@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 954px;
+    height: 594px;
+}
+
+
+.left_side {   
+    position: absolute;    
+    top: 0px;
+    left: 0px;
+    background-color: #BE0909;
+    width: 609px;
+    height: 594px;
+}
+
+.form {
+    position: relative;
+    top: 64px;
+    left: 65px;
+    width: 400px;
+    height: 354px;
+}
+
+.name {
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    top: 0px;
+    left: 0px;
+}
+     
+
+.email {
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    width: 400px;
+    height: 72px;
+}
+
+.message {    
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left: 0x;
+    top: 196px;
+}
+
+.message_area {
+    position: absolute;
+    width: 400px;
+    height: 72px;
+    left:0px;
+    top: 290px;
+}
+
+.submit_button {
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    left: 99px;
+    top: 418px;
+}
+
+button {
+    background-color: #468189;
+    width: 202px;
+    height: 48px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+input {    
+    background-color: #BE0909;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width: 400px;
+    height: 36px;
+    border-style: solid;
+    border-radius: 1px;
+    border-bottom: #FDFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: non;
+}
+
+textarea {
+    background-color: #BE0909;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width: 400px;
+    height: 36px;
+}
+
+::-webkit-input-placeholder {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    width: 400px;
+    height: 36px;
+}
+
+.name_input, .email_input, .message_input, .message_area_input {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    opacity: 0.5;
+    width: 400px;
+    height: 36px;
+}
+
+.label {    
+    width: 400px;
+    height: 36px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+}
+
+.right_side {
+    position: absolute;
+    top: 0px;
+    left: 609px;    
+    background-color: #FFB039;
+    width: 345px;
+    height: 594px;
+}
+
+.rubber_duck_image {
+    position: absolute;
+    z-index: 3;
+    top: 50px;
+    left: 400px;
+    width: 585px;
+    height: 603px; 
+}
